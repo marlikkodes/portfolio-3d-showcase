@@ -1,6 +1,8 @@
 ## Ownership
-- Owner: marvin Marlik telegram @solidity pope
+- Owner: Marvin Marlik (telegram @solidity pope)
 - Email: marlikkodes@gmail.com
+
+## Ownership
 
 <div align="center">
   <br />
@@ -68,7 +70,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+👉 
 
 👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
 
@@ -635,12 +637,12 @@ export const textVariant = (delay) => {
 export const fadeIn = (direction, type, delay, duration) => {
   return {
     hidden: {
-      x: direction === "left" ? 100 : direction === "right" ? -100 : 0,
+
       y: direction === "up" ? 100 : direction === "down" ? -100 : 0,
       opacity: 0,
     },
     show: {
-      x: 0,
+
       y: 0,
       opacity: 1,
       transition: {
@@ -675,11 +677,11 @@ export const zoomIn = (delay, duration) => {
 export const slideIn = (direction, type, delay, duration) => {
   return {
     hidden: {
-      x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
+
       y: direction === "up" ? "100%" : direction === "down" ? "100%" : 0,
     },
     show: {
-      x: 0,
+
       y: 0,
       transition: {
         type: type,
